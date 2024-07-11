@@ -92,7 +92,7 @@ class ApplicationController extends Controller
         'intern_female.required' => 'The female field is required.',
         'from_date.required' => 'The start date field is required.',
         'to_date.required' => 'The end date field is required.',
-        'salary.required' => 'The salary field is required.',
+        'salary.required' => 'The stipend field is required.',
         'email.required' => 'The email field is required.',
         'phone.required' => 'The phone field is required.',
         'type.required' => 'The type field is required.',
