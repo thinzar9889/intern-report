@@ -8,11 +8,12 @@
                         <div class="col-md-12 mt-3">
                             <!-- general form elements -->
 
-                            <div class="card card-light">
+                            <div class="card">
                                 <div class="card-header">
                                     <h3 class="card-title">Create New University</h3>
                                     <a href="{{ route('universities.index') }}">
-                                        <button type="button" class="btn btn-outline-warning float-right">Back</button>
+                                        <button type="button"
+                                            class="btn btn-sm btn-outline-primary float-right">Back</button>
                                     </a>
                                 </div>
                                 <!-- /.card-header -->
@@ -40,7 +41,7 @@
                                                     <input type="text" name="type"
                                                         class="form-control @error('type') is-invalid @enderror"
                                                         id="type" placeholder="Enter Type" value="{{ old('type') }}">
-                                                    @error('name')
+                                                    @error('type')
                                                         <span class="invalid-feedback">{{ $message }}</span>
                                                     @enderror
                                                 </div>
@@ -63,9 +64,9 @@
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-outline-success">Submit</button>
+                                        <button type="submit" class="btn btn-sm btn-outline-success">Submit</button>
                                         <a href="{{ route('universities.index') }}"
-                                            class="btn btn-outline-danger">Cancel</a>
+                                            class="btn btn-sm btn-outline-warning">Cancel</a>
                                     </div>
                                 </form>
                             </div>

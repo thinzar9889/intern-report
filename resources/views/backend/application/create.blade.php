@@ -272,7 +272,7 @@
                                 </div>
                             </div>
                             <div class="card-footer">
-                                <button type="submit" class="btn btn-sm btn-outline-primary">Submit</button>
+                                <button type="submit" class="btn btn-sm btn-outline-success">Submit</button>
                                 <a href="{{ route('application.index') }}" class="btn btn-sm btn-warning">Cancel</a>
                             </div>
                         </form>
